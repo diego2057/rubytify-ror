@@ -37,7 +37,7 @@ module RubytifyApi
     config.api_only = true
 
     config.action_dispatch.default_headers = {
-      'Access-Control-Allow-Origin' => 'http://localhost:3000/*',
+      'Access-Control-Allow-Origin' => 'https://ayenda-challenge.herokuapp.com/',
       'Access-Control-Request-Method' => %w{GET POST}.join(",")
     }
   end
